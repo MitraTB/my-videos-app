@@ -1,28 +1,28 @@
 <template>
   <div>
     <div v-for="video in videos" :key="video.id" class="video-list">
-      <div class="each-video-section">
-        <div class="image">
-        <img :src="video.thumbnail">
+      <router-link :to="{name:'Videos', params:{id : video.id}}">
+        <div class="each-video-section">
+          <div class="image">
+            <img :src="video.thumbnail">
+          </div>
+          <div class=content>
+            <h3>{{video.name}}</h3>
+            <p>{{video.description}}</p>
+          </div>
         </div>
-        <div class=content>
-        <h3>{{video.name}}</h3>
-        <p>{{video.description}}</p>
-        </div>
-      </div>
+      </router-link>
     </div>
   </div>
 </template>
-
 <script>
 export default {
-  computed:{
-    videos(){
-      return this.$store.state.videos;
+  data(){
+    return {
+      videos:this.$store.state.videos
     }
   }
- 
-}
+ }
 </script>
 <style scoped>
 .video-list{
@@ -53,5 +53,8 @@ img{
   width: 80%;
   text-align: left;
 }
-
+a{
+  text-decoration: none;
+  color: black;
+}
 </style>
