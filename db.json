@@ -1,0 +1,32 @@
+{
+  "videos":[
+    {
+      "id":1,
+      "name":"Every Thing About Solar System",
+      "description":"It was an astronomy book, and I poured over that thing for hours on end, and it was a combination of all these...",
+      "thumbnail":"https://www.seyedrezabazyar.com/fa/files/2017/06/Solar-systems.png",
+      "videoUrl" :"https://cdn.theguardian.tv/webM/2015/07/20/150716YesMen_synd_768k_vp8.webm"
+    },
+    {
+      "id":2,
+      "name":"Black Holes",
+      "description":"From asteroids capable of destroying entire species to supernovae that could exterminate life on Earth, outer space has no shortage of forces that could wreak havoc on our planet. But there's something in space that is even more terrifying than any of these -- something that wipes out everything it comes near. Fabio Pacucci examines the probability of Earth being gobbled up by a black hole.",
+      "thumbnail":"https://www.nasa.gov/sites/default/files/thumbnails/image/simulated_bh.jpg",
+      "videoUrl":"https://cdn.theguardian.tv/webM/2015/07/20/150716YesMen_synd_768k_vp8.webm"
+    },
+    {
+      "id":3,
+      "name":"Celestial bodies",
+      "description":"In astronomy, an astronomical object or celestial object is a naturally occurring physical entity, association, or structure that exists in the observable universe.",
+      "thumbnail":"https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRme0DV0YFPGTZpUgo4DV2v8d-otDSzuOSJeg&usqp=CAU",
+      "videoUrl":"https://cdn.theguardian.tv/webM/2015/07/20/150716YesMen_synd_768k_vp8.webm"
+    },
+    {
+      "id":4,
+      "name":"Wormhole",
+      "description":"A wormhole is a speculative structure linking disparate points in spacetime, and is based on a special solution of the Einstein field equations. A wormhole can be visualized as a tunnel with two ends at separate points in spacetime. ",
+      "thumbnail":"https://cdn.mos.cms.futurecdn.net/n6LzftRUbAhUMCSWmi2Sji.jpg",
+      "videoUrl":"https://cdn.theguardian.tv/webM/2015/07/20/150716YesMen_synd_768k_vp8.webm"
+    }
+    ]
+}

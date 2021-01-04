@@ -17,11 +17,11 @@
 </template>
 <script>  
 export default {
-  data(){
-    return {
-      videos:this.$store.state.videos
-    }
-  }
+ computed:{
+   videos(){
+     return this.$store.state.videos;
+   }
+ }
  }
 </script>
 <style scoped>
@@ -32,8 +32,9 @@ export default {
   border-radius: 10px;
 }
 .image{
-  width: 15%;
+  max-width: 15%;
   margin-right: 2px;
+  min-width: 15%;
 }
 .each-video-section{
   display: flex;
